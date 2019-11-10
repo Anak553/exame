@@ -1,137 +1,159 @@
-*
-{
-    padding: 0;
-    margin: 0;
+* {
+  padding: 0;
+  margin: 0;
 }
-*
-{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+}
+.bg-g {
+  background-color: #fafafa;
 }
 
 /*header*/
-header
-{
-    background-image: url(./images/slideshow-1.jpg);
-    background-size: cover;
-    height: 700px;
+header {
+  background-image: url(./images/slideshow-1.jpg);
+  background-size: cover;
+  height: 700px;
 }
-.slide-2
-{
-    background-image: url(./images/slideshow-2.jpg);
-    background-size: cover;
-    height: 700px;
+.slide-2 {
+  background-image: url(./images/slideshow-2.jpg);
+  background-size: cover;
+  height: 700px;
 }
-.slid-3
-{
-    background-image: url(./images/slideshow-3.jpg);
-    background-size: cover;
-    height: 700px;
+.slid-3 {
+  background-image: url(./images/slideshow-3.jpg);
+  background-size: cover;
+  height: 700px;
 }
-
-.bg-light
-{
-    background-color: transparent!important;
-    
-}
-.navs
-{
-    background-color: rgba(0, 0, 0, 0.1);
-}
-.navbar-brand img 
-{
-    width: 100px;
-    margin: ;
-}
-nav a
-{
-    color: white!important;
-}
-.head2
-{
-  
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.head2 h2 
-{
-    margin-bottom: 20px;
-    font-size: 38px;
-    line-height: 38px;
-    font-weight: 700;
-    text-transform: none;
-    font-family: "Poppins", sans-serif;
-    color: #f1f1f1;
-    font-weight: 900;
-    font-size: 50px;
-    line-height: 100px;
-    
-    
-}
-.head2 h3
-{
-   
-    
-    position: absolute;
-    top: 0.9px;
-    font-size: 38px;
-    line-height: 38px;
-    font-weight: 700;
-    
-}
-.line-head 
-{
-    text-align: center;
-    margin-top:60px ;
+.h-header {
 }
 
-.line-h
-{
-    width: 50px;
-    height: 2px;
-    background-color:black ;
-    text-align: center;
-    margin: auto;
+.bg-light {
+  background-color: transparent !important;
 }
-.contain-head
-{
-    text-align: center;
+.navs {
+  background-color: rgba(0, 0, 0, 0.1);
 }
-img
-{
-    width: 100%;
+.navbar-brand img {
+  width: 100px;
+  margin: ;
 }
-.card
-{
-    
+nav a {
+  color: white !important;
 }
-.list-group-item
-{
-    border: none;
+.head2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.works
-{
-    background-color: black;
-    padding: 80px 0;
+.head2 h2 {
+  margin-bottom: 20px;
+  font-size: 38px;
+  line-height: 38px;
+  font-weight: 700;
+  text-transform: none;
+  font-family: "Poppins", sans-serif;
+  color: #f1f1f1;
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 100px;
+}
+.head2 h3 {
+  position: absolute;
+  top: 0.9px;
+  font-size: 38px;
+  line-height: 38px;
+  font-weight: 700;
+}
+.line-head {
+  text-align: center;
+  margin-top: 60px;
+}
 
+.line-h {
+  width: 50px;
+  height: 2px;
+  background-color: black;
+  text-align: center;
+  margin: auto;
 }
-.works i
-{
-    color: #f25454 ;
-    font-size: 2rem;
+.contain-head {
+  text-align: center;
 }
-.im img
-{
-    width: 100%;
+img {
+  width: 100%;
 }
-footer img
-{
-    width: 50px;
-    height: 50px;
+.card {
 }
-footer
-{
-    background-image: url(dotted-map.png);
-    background-size: cover;
-   
+.list-group-item {
+  border: none;
+}
+.works {
+  background-color: black;
+  padding: 80px 0;
+}
+.works i {
+  color: #f25454;
+  font-size: 2rem;
+}
+.im img {
+  width: 100%;
+}
+footer ul {
+  list-style-type: none;
+  background-color: black;
+}
+footer {
+  background-image: url(/dotted-map.png);
+  background-size: contain;
+  z-index: 100;
+}
+.layerf {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.footer1 {
+  background-color: black;
+}
+.footer1 ul li {
+  background-color: black;
+  border: none;
+  color: white;
+}
+.my-logo img {
+  width: 50px;
+}
+.contact i {
+  font-size: 2rem;
+}
+.blog-about {
+  font-size: 12px;
+}
+.ps-1 {
+  top: 5%;
+  left: 245px;
+  font-size: 11px;
+}
+.ps-2 {
+  top: 5%;
+  left: 272px;
+  font-size: 11px;
+}
+.ps-3 {
+  top: 5%;
+  left: 71%;
+  font-size: 11px;
+}
+.works h5 {
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+.works i {
+  font-size: 2rem;
+}
+.services i {
+  font-size: 2rem;
 }
